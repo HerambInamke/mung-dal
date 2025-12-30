@@ -1,11 +1,16 @@
 {
   "name": "@herambinamke/mung-dal-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MERN stack boilerplate generator with complete backend structure",
-  "main": "lib/setup.js",
+  "main": "bin/cli.js",
   "bin": {
     "mung-dal": "./bin/cli.js"
   },
+  "files":[
+    "bin",
+    "lib",
+    "templates"
+    ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
